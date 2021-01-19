@@ -14,55 +14,43 @@ https://www.treinaweb.com.br/blog/criando-ambientes-virtuais-para-projetos-pytho
 
 ```mkdir django-apps ```
 
-```cd django-apps
-```
+```cd django-apps```
 
 #### Atualizar o sistema
 
-```sudo apt update
-```
+```sudo apt update```
 
-```sudo apt -y upgrade
-```
+```sudo apt -y upgrade```
 
 #### Instalar o pip3
 
-```sudo apt install python3-pip
-```
+```sudo apt install python3-pip```
 
 #### Instalar ferramentas adicionais
 
-```sudo apt install build-essential libssl-dev libffi-dev python3-dev
-```
+```sudo apt install build-essential libssl-dev libffi-dev python3-dev```
 
 #### Instalando o env
 
-```sudo apt install -y python3-venv
-```
+```sudo apt install -y python3-venv```
 
 
-```sudo apt install python3-virtualenv
-```
+```sudo apt install python3-virtualenv```
 
 #### Criando seu ambiente virtual. Vamos chamá-lo de generic env
 
-```virtualenv env
-```
+```virtualenv env```
 
 #### Ative o ambiente virtual 
 
-```. env/bin/activate
-```
+```. env/bin/activate```
 
 #### Pode instalar as bibliotecas necessárias, como exemplo:
 
-```pip install django
-```
+```pip install django```
 
 #### Desativar o Ambiente Virtual, na pasta
 
-```deactivate
-``` 
+```deactivate``` 
 
-```quit()
-```
+```quit()```
